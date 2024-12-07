@@ -24,3 +24,4 @@ ext_scripts = [
     ".html", ".htm", ".xhtml",             # HTML
     ".css"                                 # CSS
 ]
+

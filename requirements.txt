@@ -28,3 +28,4 @@ tqdm==4.67.1
 transformers==4.46.3
 typing_extensions==4.12.2
 urllib3==2.2.3
+openai==0.27.8

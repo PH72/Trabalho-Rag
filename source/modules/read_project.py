@@ -1,7 +1,8 @@
-import os 
+
 from source.utils import vars
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
+
 
 class ReadScripts():
     def __init__(self):
@@ -10,25 +11,23 @@ class ReadScripts():
         self.model = SentenceTransformer('all-MiniLM-L6-v2')
     
     def search_scripts(self):
-        arq_names = []
         path = Path(self.path_input)
         arq_with_content = {}  
+        arq_with_name = {}
         
         for arq in path.rglob("*"):  
             if arq.suffix in self.script_ext:  
-                arq_names.append(arq.name)
-                
+        
                 with arq.open(encoding="utf-8") as f:
                     content = f.read()
                 
-                content_with_name = f"# Nome do arquivo {arq.name}\n{content}"
-
-                arq_with_content[str(arq.name)] = content_with_name
-                
+                files_name_vector = f"# Nome do arquivo {arq.name}."
+                arq_with_name[str(arq.name)] = files_name_vector
+                arq_with_content [str(arq.name)] = content
         
-        vectors_db = self.__generate_vector(arq_with_content)
+        vectors_db = self.__generate_vector(arq_with_name)
      
-        return arq_names, vectors_db, arq_with_content
+        return arq_with_name, vectors_db, arq_with_content
     
     def __generate_vector(self, conteudos):
         

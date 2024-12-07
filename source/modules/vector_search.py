@@ -29,5 +29,6 @@ class VetorialSearch:
 
         # Ordena por similaridade (descendente) e retorna os top_k
         resultado = sorted(resultados, key=lambda x: x[1], reverse=True)
+
         
         return arq_witch_content.get(resultado[0][0], "")
