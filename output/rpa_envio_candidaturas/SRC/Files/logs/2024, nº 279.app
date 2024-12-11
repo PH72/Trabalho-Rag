@@ -1,0 +1,14 @@
+2024-08-13 09:01:02 - AppLogger - INFO - Download do Diario realizado com sucesso
+2024-08-13 09:01:02 - AppLogger - INFO - Verificção do diario realizada com sucesso
+2024-08-13 09:01:06 - AppLogger - INFO - Resultado.SUCESSO
+2024-08-13 09:01:06 - AppLogger - INFO - Lista de emails gerada com sucesso
+2024-08-13 09:01:06 - AppLogger - INFO - [{'filename': '009ª Zona Eleitoral.pdf', 'email': ['009perussas@mpce.mp.br', 'luiz.junior@mpce.mp.br']}, {'filename': '014ª Zona Eleitoral.pdf', 'email': ['014pelavrasdamangabeira@mpce.mp.br', 'joao.eder@mpce.mp.br']}, {'filename': '047ª Zona Eleitoral.pdf', 'email': ['047pemoradanova@mpce.mp.br', 'filipe.martins@mpce.mp.br']}, {'filename': '076ª Zona Eleitoral.pdf', 'email': ['076pemauriti@mpce.mp.br', 'geisyane.prado@mpce.mp.br']}]
+2024-08-13 09:01:06 - AppLogger - INFO - Emails enviados com sucesso
+2024-08-13 09:01:06 - AppLogger - INFO - [{'filename': '009ª Zona Eleitoral.pdf', 'email': ['009perussas@mpce.mp.br', 'luiz.junior@mpce.mp.br'], 'status': 'Enviado'}, {'filename': '014ª Zona Eleitoral.pdf', 'email': ['014pelavrasdamangabeira@mpce.mp.br', 'joao.eder@mpce.mp.br'], 'status': 'Enviado'}, {'filename': '047ª Zona Eleitoral.pdf', 'email': ['047pemoradanova@mpce.mp.br', 'filipe.martins@mpce.mp.br'], 'status': 'Enviado'}, {'filename': '076ª Zona Eleitoral.pdf', 'email': ['076pemauriti@mpce.mp.br', 'geisyane.prado@mpce.mp.br'], 'status': 'Enviado'}]
+2024-08-14 16:57:17 - AppLogger - INFO - Download do Diario realizado com sucesso
+2024-08-14 16:57:19 - AppLogger - INFO - Verificção do diario realizada com sucesso
+2024-08-14 16:57:29 - AppLogger - INFO - Resultado.SUCESSO
+2024-08-14 16:57:32 - AppLogger - INFO - Lista de emails gerada com sucesso
+2024-08-14 16:57:33 - AppLogger - INFO - [{'filename': '009ª Zona Eleitoral.pdf', 'email': ['009perussas@mpce.mp.br', 'luiz.junior@mpce.mp.br']}, {'filename': '014ª Zona Eleitoral.pdf', 'email': ['014pelavrasdamangabeira@mpce.mp.br', 'joao.eder@mpce.mp.br']}, {'filename': '047ª Zona Eleitoral.pdf', 'email': ['047pemoradanova@mpce.mp.br', 'filipe.martins@mpce.mp.br']}, {'filename': '076ª Zona Eleitoral.pdf', 'email': ['076pemauriti@mpce.mp.br', 'geisyane.prado@mpce.mp.br']}]
+2024-08-14 16:57:58 - AppLogger - INFO - Emails enviados com sucesso
+2024-08-14 16:57:58 - AppLogger - INFO - [{'filename': '009ª Zona Eleitoral.pdf', 'email': ['009perussas@mpce.mp.br', 'luiz.junior@mpce.mp.br'], 'status': 'Enviado'}, {'filename': '014ª Zona Eleitoral.pdf', 'email': ['014pelavrasdamangabeira@mpce.mp.br', 'joao.eder@mpce.mp.br'], 'status': 'Enviado'}, {'filename': '047ª Zona Eleitoral.pdf', 'email': ['047pemoradanova@mpce.mp.br', 'filipe.martins@mpce.mp.br'], 'status': 'Enviado'}, {'filename': '076ª Zona Eleitoral.pdf', 'email': ['076pemauriti@mpce.mp.br', 'geisyane.prado@mpce.mp.br'], 'status': 'Enviado'}]

@@ -1,0 +1,28 @@
+{
+    "mpce_mais_digital":  {
+        "dev": {
+            "host": "10.1.1.10",
+            "port": "5433",
+            "dbname": "mpce_mais_digital",
+            "user": "pedro.freitas1",
+            "password": ""
+        },
+
+        "hom": {
+            "host": "10.1.1.49",
+            "port": "5433",
+            "dbname": "mpce_mais_digital",
+            "user": "pedro.freitas1",
+            "password": ""
+        },
+
+        "prd": {
+            
+            "host": "10.1.1.53",
+            "port": "5433",
+            "dbname": "mpce_mais_digital",
+            "user": "pedro.freitas1",
+            "password": ""
+        }  
+    }
+}
